@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="Fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محمد مسعودی | Mohammad Masoudy</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="js/all.min.js" defer></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Start header -->
+    <header id="header">
+      <div class="container">
+        <div class="left">
+          <h2 class="name">محمد مسعودی</h2>
+          <div class="logo">
+            <img src="img/logo.png" alt="لوگو" />
+          </div>
+          <!-- <div class="clearFix"></div> -->
+        </div>
+        <div class="right">
+          <nav id="nav">
+            <ul>
+              <li onclick="choosePage('index')">
+                <a href="#">صفحه اصلی</a>
+              </li>
+              <li onclick="choosePage('index')">
+                <a href="#about">درباره ی من</a>
+              </li>
+              <li onclick="choosePage('index')">
+                <a href="#works">نمونه کار ها</a>
+              </li>
+              <li onclick="choosePage('projectTracking')">
+                <a href="#">پیگیری پروژه</a>
+              </li>
+              <li onclick="choosePage('index')">
+                <a href="#connectus" class="contact_us">ارتباط با من</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="clearFix"></div>
+        </div>
+      </div>
+    </header>
+    <!-- Stop header -->
+
+    <div id="all-info">
+      <!-- Start about section -->
+      <section id="about">
+        <div class="container" style="position: relative">
+          <div class="right">
+            <p class="sayhi">سلام! من</p>
+            <h2 class="name">محمد مسعودی <span>هستم</span></h2>
+            <p class="about">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+            </p>
+            <a onclick="choosePage('addProject',this)" href="#" class="hireme"
+              >درخواست ثبت پروژه</a
+            >
+          </div>
+          <div class="left">
+            <img src="img/Vector(1).svg" alt="bg" class="bluebg" />
+            <img src="img/Vector.svg" alt="bg" class="yellowbg" />
+            <img class="human" src="img/human.svg" alt="my svg" />
+          </div>
+        </div>
+        <div class="clearFix"></div>
+      </section>
+      <!-- Stop about section -->
+
+      <!-- Start skill section -->
+      <section id="skills">
+        <div class="container">
+          <h2 class="title">مهارت ها</h2>
+          <div class="html skill">
+            <div class="persent">
+              <p><i class="fab fa-html5"></i>html</p>
+            </div>
+          </div>
+          <div class="css skill">
+            <div class="persent">
+              <p><i class="fab fa-css3"></i>css</p>
+            </div>
+          </div>
+          <div class="js skill">
+            <div class="persent">
+              <p><i class="fab fa-js"></i>js</p>
+            </div>
+          </div>
+          <div class="python skill">
+            <div class="persent">
+              <p><i class="fab fa-python"></i>python</p>
+            </div>
+          </div>
+          <div class="php skill">
+            <div class="persent">
+              <p><i class="fab fa-php"></i>php</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Stop skill section -->
+
+      <!-- Start work article -->
+      <article id="works">
+        <div class="container">
+          <h2 class="article-title">نمونه کار ها</h2>
+          <div class="items">
+            <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work1.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div>
+            <img class="line" src="img/line.png" alt="" />
+
+            <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work2.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work3.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div> -->
+
+            <img class="line" src="img/line.png" alt="" />
+
+            <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work4.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div>
+            <img class="line" src="img/line.png" alt="" />
+
+            <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work5.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work6.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div> -->
+
+            <img class="line" src="img/line.png" alt="" />
+
+            <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work7.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div>
+            <img class="line" src="img/line.png" alt="" />
+
+            <div class="item">
+              <div class="face1 item-header">
+                <img src="img/work/work8.png" alt="work img" />
+              </div>
+              <div class="face2">
+                <div class="item-content">
+                  <h3 class="title">عنوان</h3>
+                  <p class="desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    است
+                  </p>
+                </div>
+                <div class="item-footer">
+                  <span class="data">1400/99/99</span>
+                  <a href="#" class="show-project">مشاهده</a>
+                </div>
+              </div>
+            </div>
+            <img class="line" src="img/line.png" alt="" />
+          </div>
+        </div>
+      </article>
+      <!-- Stop work article -->
+
+      <!-- Start connect us -->
+      <section id="connectus">
+        <div class="container">
+          <div class="title">
+            <h2>ارتباط با من</h2>
+          </div>
+          <div class="right">
+            <form action="#" class="connectus-form">
+              <input
+                type="text"
+                name="name"
+                class="name"
+                placeholder="نام شما"
+              />
+              <input
+                type="email"
+                name="email"
+                class="email"
+                placeholder="ایمیل شما"
+              />
+              <textarea name="text" class="text">متن پیام شما</textarea>
+              <button type="submit" class="connectus-btn">
+                ارسال پیام شما
+              </button>
+            </form>
+          </div>
+          <div class="left">
+            <img src="img/Ronio - Connection.svg" alt="connecting us" />
+          </div>
+          <div class="clearFix"></div>
+        </div>
+      </section>
+      <!-- Stop connect us -->
+
+      <!-- Start social media -->
+      <section id="socialmedia">
+        <div class="container">
+          <img id="socialimg" src="img/Ronio - Contact us 1.svg" usemap="#image-map">
+
+          <map name="image-map">
+              <area target="_blank" alt="My telegram account" title="My telegram account" href="https://t.me/mohammadm938" coords="165,316,100" shape="circle">
+              <area target="_blank" alt="My email" title="My email" href="mailto:ImMohammadm938@gmail.com" coords="399,390,101" shape="circle">
+              <area target="_blank" alt="My phone number" title="My phone number" href="tel:+98 9384587726" coords="629,237,100" shape="circle">
+          </map>
+        </div>
+      </section>
+      <!-- Stop social media -->
+      <script>
+        let items = document.querySelectorAll('.item');
+        items.forEach((item)=>{
+          item.addEventListener('touchstart', processTouchStart, false)
+        })
+        function processTouchStart(e){
+          if(e.target.classList.contains('item')){
+            e.target.style.boxShadow = " 0 5px 20px 0 rgb(0 0 0 / 25%)";
+            e.target.children[1].style.transition="1s";
+            e.target.children[1].style.transform="translateY(0)";
+            e.target.children[1].children[1].children[1].style.left= "0";
+            setTimeout(()=>{
+              e.target.style.boxShadow="0 5px 10px 0 rgba(0, 0, 0, 0)";
+              e.target.children[1].style.transform="translateY(-200px)";
+            },3000)
+          }
+          if(e.target.tagName == 'IMG'){
+            e.target.parentElement.parentElement.style.boxShadow = " 0 5px 20px 0 rgb(0 0 0 / 25%)";
+            e.target.parentElement.parentElement.children[1].style.transition="1s";
+            e.target.parentElement.parentElement.children[1].style.transform="translateY(0)";
+            e.target.parentElement.parentElement.children[1].children[1].children[1].style.left= "0";
+            setTimeout(()=>{
+              e.target.parentElement.parentElement.style.boxShadow="0 5px 10px 0 rgba(0, 0, 0, 0)"
+              e.target.parentElement.parentElement.children[1].style.transform="translateY(-200px)"
+          },3000)
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
